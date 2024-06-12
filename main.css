@@ -1,0 +1,105 @@
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+}
+
+header{
+   background-color:rgb(5.6, 1.1, 22.5);
+    padding-bottom: 10px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.head a{
+    color: rgb(70, 249, 255);
+}
+
+.head h1{
+    font-size: 1rem;
+}
+
+.navigation{
+    display: flex;
+    align-items: end;
+   
+}
+
+.navigation li{
+   font-size: 10px;
+    margin-right: 15px;
+    color: rgb(36, 223, 248);
+    font-weight: bold;
+}
+
+.logo{
+    height: 8rem;
+   
+} 
+
+@media (min-width:550px) {
+    html {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    .navigation li {
+        font-size: 1.2rem;
+        margin-right: 25px;
+    }
+    .logo{
+        height: 12rem;
+       
+    } 
+    .head{
+        display: flex;
+        justify-content: space-between;
+    }
+@media (min-width: 800px) {
+    html {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .navigation li {
+        font-size: 1.4rem;
+        margin-right: 50px;
+    }
+    .logo{
+        height: 15rem;
+    } 
+    .head{
+        display: flex;
+        justify-content: space-between;
+    }
+
+@media (min-width: 1200px){
+   html{
+        margin: 0 10rem;
+   }
+
+    .navigation li {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        padding-top: 20px;
+    }
+    .logo{
+        height: 17rem;
+    } 
+
+.head{
+    display: flex;
+    justify-content: space-between;
+}
+
+}

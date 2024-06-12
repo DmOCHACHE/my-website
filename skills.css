@@ -1,0 +1,138 @@
+.skills{
+    background-color: rgb(73, 2, 2);
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    font-size: 0.9rem;
+   
+}
+.row-1{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 15px;
+}
+.row-2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: space-evenly;
+}
+
+.skills img{
+    height: 50px;
+}
+.skills p{
+    color: gold;
+    font-size:12px;
+}
+.skills article{
+    color: white;
+    font-size: 11px;
+}
+.html-css{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.repair{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    
+}
+
+.python{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.ms-office{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.typing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.blender{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.c-plus-plus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.repair-icon:hover{
+    height: 150px;
+}
+.html-css-icon:hover{
+    height: 150px;
+}
+.python-icon:hover{
+    height: 150px;
+}
+.typing-icon:hover{
+    height: 150px;
+}
+.blender-icon:hover{
+    height: 150px;
+}
+.c-plus-plus-icon:hover{
+    height: 150px;
+}
+.ms-office-icon:hover{
+    height: 150px;
+}
+
+@media (min-width:550px){
+    ..skills img{
+        height: 100px;
+    }
+    .skills p{
+        color: gold;
+        font-size:15px;
+    }
+    .skills article{
+        color: white;
+        font-size: 11px;
+    }
+}
+
+@media (min-width: 800px){
+    .skills img{
+        height: 120px;
+    }
+    .skills p{
+        color: gold;
+        font-size:15px;
+    }
+    .skills article{
+        color: white;
+        font-size: 12px;
+    }
+}
+
+@media (min-width: 1200px){
+    .skills img{
+        height: 120px;
+    }
+    .skills p{
+        color: gold;
+        font-size:17px;
+    }
+    .skills article{
+        color: white;
+        font-size: 15px;
+    }
+}
